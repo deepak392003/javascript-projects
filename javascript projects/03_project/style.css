@@ -1,0 +1,61 @@
+/* style.css */
+
+/* General reset */
+body, h1, button, div {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #393a5c, #8f94fb); /* Blue to purple gradient */
+    color: white;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Header styling */
+header {
+    width: 100%;
+    text-align: center;
+}
+
+/* Navigation styling */
+nav {
+    margin-bottom: 20px;
+}
+
+#btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4e54c8; /* Blue */
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#btn:hover {
+    background-color: #8f94fb; /* Purple */
+}
+
+/* Main content styling */
+main h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+/* Clock styling */
+.clock {
+    font-size: 3em;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    padding: 20px 40px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}

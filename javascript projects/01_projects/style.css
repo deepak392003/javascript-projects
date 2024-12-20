@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(211, 196, 196);
+  height: 80px;
+}
+
+nav .btn {
+  margin-right: 10px;
+  background-color: rgb(192, 192, 211);
+  padding: 5px;
+  border: 2px solid black;
+  cursor: pointer;
+
+  padding-right: 20px;
+  padding-left: 16px;
+  font-size: 18px;
+  font-weight: 600;
+  color: black;
+}
+
+.ybtn {
+  margin-right: 10px;
+  background-color: rgb(192, 192, 211);
+  padding: 5px;
+  border: 2px solid black;
+  cursor: pointer;
+  padding-right: 20px;
+  padding-left: 16px;
+}
+
+.ybtn a {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+  color: black;
+}
+
+
+.box{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.box2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    text-align: center;
+    font-size: 25px;
+    font-family: sans-serif;
+    color: black;
+    margin-top: 35px;
+}
+
+.button{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin: 12px;
+}
+
+#gray{
+    background-color: gray;
+}
+
+#yellow{
+    background-color: rgb(255, 225, 0);
+}
+
+#blue{
+    background-color: rgb(93, 0, 255);
+}
+
+#red{
+    background-color: rgb(255, 0, 0);
+}
+
+#purple{
+    background-color: rgb(255, 0, 255);
+}

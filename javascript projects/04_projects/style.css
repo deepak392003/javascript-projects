@@ -1,0 +1,117 @@
+/* style.css */
+
+/* General reset */
+body, h1, p, button, form, div {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #ff4b4b, #a8ff78); /* Red to greenish gradient */
+    color: white;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Header styling */
+header {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff4b4b; /* Red */
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#btn:hover {
+    background-color: #a8ff78; /* Greenish */
+}
+
+/* Main wrapper */
+#wrapper {
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 30px;
+    width: 90%;
+    max-width: 400px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Headings and paragraphs */
+h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1em;
+    margin: 10px 0;
+}
+
+/* Form styling */
+form {
+    margin: 20px 0;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+}
+
+input[type="number"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: 2px solid #ff4b4b;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+input[type="submit"] {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #ff4b4b; /* Red */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #a8ff78; /* Greenish */
+}
+
+/* Result paragraphs */
+.resultParas {
+    margin-top: 20px;
+    text-align: left;
+    color: white;
+}
+
+span {
+    font-weight: bold;
+}
+
+/* Feedback text */
+.lowOrHi {
+    font-size: 1.2em;
+    margin-top: 10px;
+    color: yellow;
+}
